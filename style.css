@@ -1,0 +1,401 @@
+body{
+    background-color: rgb(145, 185, 44)
+}
+
+p{
+    font-family: "Inria Serif", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: x-large;
+}
+
+h2{
+    text-align: center;
+    font-size: xx-large;
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    color: rgb(11, 45, 8);
+}
+
+h3{
+    font-family: "Inria Serif", serif;
+    font-weight: 600;
+}
+
+.top-container{
+    position: relative;
+}
+
+.background{
+    width: 100%;
+}
+
+.head{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+}
+
+.head>h1{
+    
+    font-family: "Playwrite IN", serif;
+    font-weight: bold;
+    color: rgb(99, 47, 5);
+    text-align: center;
+    font-size: 70px;
+}
+
+.head>h2{
+    color: white;
+    text-align: center;
+    margin-top: 200px; 
+}
+
+.mypic{
+    text-align: center;
+}
+
+.me{
+    border-radius: 50%;
+    height: 400px;
+    border: 7px solid rgb(48, 69, 0); 
+    margin-top: 100px;
+}
+
+
+.container>h2{
+    color: rgb(11, 45, 8);
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+}
+
+.container{
+    text-align: center;
+}
+
+.introduction{
+    position: relative;
+}
+.vines2{
+    position: absolute;
+    z-index: -1;
+}
+
+.branch{
+    margin-top: 100px;
+}
+
+.branchpage2{
+    float: right;
+    height: 180px;
+}
+
+.qualification{
+    display: grid;
+    position: relative;
+}
+
+.nest{
+    position: absolute;
+    z-index: -1;
+}
+
+.pastprojects{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.branchright{
+    float: right;
+    height: 150px;
+    margin-top: 50px;
+}
+
+.resume{
+    margin-top: 100px;
+}
+
+.link{
+    text-align: center;
+}
+
+.aboutme{
+    position: relative;
+   margin-top: 280px;
+   display: flex;
+}
+
+.branch3{
+    position: absolute;
+    z-index: -1;
+}
+
+.interests{
+    width: 100%;
+}
+
+.digital,.books{
+    display: flex;
+    justify-content: center;
+}
+
+.digital{
+    margin-bottom: 30px;
+}
+
+.artist,.book{
+    text-align: left;
+    margin-top: 30px;
+}
+
+.book{
+    width: 204px;
+}
+
+.content{
+    display: block;
+    width: 30rem;
+    margin-top: 30px;
+}
+
+.contact{
+    display: block;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.bold{
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.contact>p{
+    margin-bottom: 50px;
+}
+.btn{
+    background-color: aliceblue;
+    width: 200px;
+    height: 60px;
+    font-size: x-large;
+    color: green;
+    border-radius: 40px;
+    margin-bottom: 60px;
+}
+
+.footer{
+    width: 100%;
+    background-color: rgb(181, 161, 136);
+    position: relative;
+}
+
+.bottomvines{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+
+}
+
+@media(max-width: 920px){
+    .head>h2{
+        color: white;
+        text-align: center;
+        margin-top: 130px; 
+    }
+}
+
+
+
+@media(max-width: 850px){
+    .head{
+        position: absolute;
+        top: 80px;}
+    .head>h2{
+        color: white;
+        text-align: center;
+        margin-top: 120px; 
+    }
+
+    .nest{
+        height: 250px;
+    }
+    .branchright{
+        height: 150px;
+    }
+    .vines2{
+        height: 450px;
+    }
+    .branchpage2{
+        float: right;
+        height: 150px;
+    }
+    .branch3{
+        position: absolute;
+        height: 380px;
+        width: 280px;
+        z-index: -1;
+    }
+}
+
+@media(max-width: 600px){
+    .head{
+        position: absolute;
+        top: 100px;
+    }
+    .head>h1{
+        font-family: "Playwrite IN", serif;
+    font-weight: bold;
+    color: rgb(99, 47, 5);
+    text-align: center;
+    font-size: 40px;
+    }
+    .head>h2{
+        color: white;
+    text-align: center;
+    margin-top: 70px; 
+    }
+    .nest{
+        height: 200px;
+    }
+
+    .branchright{
+        height: 100px;
+    }
+    .vines2{
+        height: 300px;
+    }
+    .branchpage2{
+        float: right;
+        height: 120px;
+    }
+    .branch3{
+        position: absolute;
+        height: 260px;
+        width: 200px;
+        z-index: -1;
+    }
+}
+
+@media(max-width: 500px){
+    .head{
+        position: absolute;
+        top: 80px;
+    }
+    .head>h1{
+        font-family: "Playwrite IN", serif;
+        font-weight: bold;
+        color: rgb(99, 47, 5);
+        text-align: center;
+        font-size: 30px;
+    }
+    .head>h2{
+        color: white;
+        text-align: center;
+        margin-top: 60px; 
+    }
+    .vines2{
+        height: 250px;
+    }
+    .branch{
+        margin-top: 50px;
+    }
+    .branchpage2{
+        float: right;
+        height: 100px;
+    }
+    .branchright{
+        margin-top: 20px;
+        float: right;
+        height: 90px;
+    }
+    .resume{
+        margin-top: 50px;
+    }
+    .branch3{
+        position: absolute;
+        height: 250px;
+        width: 200px;
+        z-index: -1;
+    }
+    .pastprojects{
+        margin-top: 100px;
+        text-align: center;
+    }
+    .aboutme{
+        position: relative;
+        margin-top: 100px;
+        display: flex;
+    }
+}
+
+@media(max-width: 400px){
+    .head{
+        position: absolute;
+        top: 40px;
+    }
+    .head>h1{
+        font-family: "Playwrite IN", serif;
+    font-weight: bold;
+    color: rgb(99, 47, 5);
+    text-align: center;
+    font-size: 30px;
+    }
+    .head>h2{
+        color: white;
+    text-align: center;
+    margin-top: 10px; 
+    font-size: 15px;
+    }
+    .vines2{
+        height: 200px;
+    }
+    .me{
+        height: 300px;
+    }
+    p{
+        font-family: "Inria Serif", serif;
+        
+        font-style: normal;
+        font-size: medium;
+    }
+    .branch{
+        margin-top: 50px;
+    }
+    .branchpage2{
+        float: right;
+        height: 80px;
+        
+    }
+    .branchright{
+        margin-top: 20px;
+        float: right;
+        height: 90px;
+    }
+    .resume{
+        margin-top: 20px;
+        
+    }
+    .branch3{
+        position: absolute;
+        height: 150px;
+        width: 140px;
+        z-index: -1;
+    }
+    .pastprojects{
+        margin-top: 120px;
+        text-align: center;
+    }
+    .aboutme{
+        position: relative;
+        margin-top: 150px;
+        display: flex;
+    }
+}
+
+
+      
